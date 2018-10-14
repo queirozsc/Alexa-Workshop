@@ -1,0 +1,90 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "nursing skill",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "DiastolicIntent",
+          "slots": [
+            {
+              "name": "diastolic",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "my diastolic pressure is {diastolic}"
+          ]
+        },
+        {
+          "name": "MyBloodPressureIntent",
+          "samples": [
+            "blood pressure",
+            "blood pressure input"
+          ]
+        },
+        {
+          "name": "MyNameIs",
+          "slots": [
+            {
+              "name": "strname",
+              "type": "AMAZON.US_FIRST_NAME"
+            }
+          ],
+          "samples": [
+            "my name is {strname}"
+          ]
+        },
+        {
+          "name": "SistolicIntent",
+          "slots": [
+            {
+              "name": "sistolic",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "my sistolic pressure is {sistolic}"
+          ]
+        },
+        {
+          "name": "WhatsMyNameIntent",
+          "samples": [
+            "what is my name",
+            "who am i",
+            "i'm drunk and forgot my name"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "BestSoccerTeamIntent",
+          "slots": [
+            {
+              "name": "state",
+              "type": "AMAZON.AT_CITY"
+            }
+          ],
+          "samples": [
+            "tell me the great team from {state}",
+            "who's the best soccer team in {state}",
+            "what's the best soccer team in {state} "
+          ]
+        }
+      ]
+    }
+  }
+}
